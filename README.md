@@ -11,5 +11,7 @@ The button Add will only activate if a number is entered in the price and quanti
 
 The UI has two datagrid one for the fund and another for the summary. The summary has been done as a grid so that it is generic enough so that other asset types can be easily added without having to modifiy the UI. The total row in the the summary grid is higlighted. 
 
+The ViewModel uses a number of convenience objects from MVVMLight - RelayCommand , ObservableObject etc. 
+
 A new asset class can be added easily without having to change the UI. This can be acheived by creating a new asset class that inherits the Stock abstract class and by adding it to the AssetType enum  and modifying the StockFactory. 
 
